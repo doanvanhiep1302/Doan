@@ -1,0 +1,203 @@
+.overAboutUs{
+    padding-top: 60px;
+}
+.titleAboutUs{
+    font-family: cursive;
+}
+
+
+.overTitleAboutUs{
+    background: #f8f7f4;
+    margin: 0 auto;
+    padding: 50px 20px 0px 20px;
+}
+.vietnameseAboutUs{
+    font-size: 32px;
+    line-height: 32px;
+    padding: 20px 0 35px;
+    letter-spacing: .02em;
+    color: #161a21;
+    margin: 0;
+}
+.descriptionAboutUs{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: .02em;
+    color: #161a21;
+    margin: 0;
+    font-family: cursive;
+}
+
+.wrapperWhyNot{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapperValue{
+    display: flex;
+    justify-content: center;
+}
+.overContentAboutUs{
+    padding: 50px 0;
+    font-family: cursive;
+}
+.contentImgAboutUs{
+    opacity: 1;
+}
+.contentImgAboutUs img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.descriptionContentAboutUs{
+    flex: 0 0 48.888%;
+    padding: 0 50px;
+    margin: auto 0px;
+}
+.descriptionCAU1{
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: .5em;
+    color: #161a21;
+    margin: 0;
+}
+.descriptionCAU2{
+    padding: 16px 0 32px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #161a21;
+    margin: 0;
+}
+
+.descriptionCAU3{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: .02em;
+    color: #161a21;
+    padding: 0 0 16px;
+    margin: 0;
+}
+
+.descriptionCAU4{
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: .02em;
+    color: #161a21;
+    opacity: .6;
+    margin: 0;
+}
+
+.endContentAboutUS1{
+    font-family: cursive;
+    padding-top: 10em;
+    padding-right: 2em;
+}
+.endContentAboutUS2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-left: 2em;
+}
+.endContent1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -.02em;
+    color: #161a21;
+    margin: 0;
+}
+.endContent2{
+    padding: 50px 0 0 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: .02em;
+    color: #161a21;
+}
+.endContent3{
+    padding: 0 0 20px 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: .02em;
+    color: #161a21;
+}
+.overFooterABU{
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+}
+.customWidth{
+    width: 300px;
+}
+.footerAboutUs1{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -.02em;
+    color: #000;
+    margin: 0;
+    padding: 24px 0;
+}
+.footerAboutUs2{
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: .02em;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px){
+    .overTitleAboutUs{
+        width: 770px;
+        transform: translateY(-50%);
+    }
+    .descriptionAboutUs{
+        padding: 0 22.3%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .wrapperWhyNot{
+        display: block;
+    }
+    .descriptionContentAboutUs{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 993px) {
+    .endContentAboutUS1{
+        display: block;
+        padding-top: 1em;
+    }
+    .wrapperValue{
+        display: block;
+    }
+    .endContentAboutUS2{
+        padding-bottom: 2em;
+    }
+    .customWidth{
+        width: 200px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .endContentAboutUS1{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 770px) {
+   .overFooterABU{
+        display: block;
+   }
+   .customWidth{
+    width: 100%;
+   }
+   
+}

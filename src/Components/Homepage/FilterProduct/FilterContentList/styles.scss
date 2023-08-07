@@ -1,0 +1,54 @@
+
+.content-list {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+
+  overflow-x: auto;
+
+  padding: 40px 0;
+  /* grid-auto-columns: auto; */
+  gap: 40px;
+  .filter-price-title {
+    margin-right: 12px;
+  }
+  .body {
+    min-height: 100px;
+  }
+
+  .select-active {
+    border: 2px solid var(--primary-color);
+  }
+  .color {
+    .label {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .border {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    //color
+  }
+  .size {
+    height: 80px;
+    width: 80px;
+    background: var(--color-gray);
+    border-radius: 50%;
+    display: inline-block;
+    .label {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+}

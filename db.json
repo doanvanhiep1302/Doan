@@ -1,0 +1,148 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "AMAZON",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fg%2Fu%2Fguandao.png&w=640&q=75",
+            "price": 1900000,
+            "saleOff": 15
+        },
+        {
+            "id": 2,
+            "title": "DELL",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fs%2Fa%2Fsandstorm.png&w=640&q=75",
+            "price": 2100000,
+            "saleOff": 25
+        },
+        {
+            "id": 3,
+            "title": "LG - 4.5",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fv%2Fe%2Fvera_2_sliver_shadow.png&w=640&q=75",
+            "price": 1890000,
+            "saleOff": 20
+        },
+        {
+            "id": 4,
+            "title": "PANASONIC",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fc%2Fu%2Fcuff-rosie-sil-2-shadow.png&w=640&q=75",
+            "price": 2910000,
+            "saleOff": 10
+        },
+        {
+            "id": 5,
+            "title": "INSIGNIA",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fo%2Fw%2Fowen-gunmetal-2-shadow_1.png&w=640&q=75",
+            "price": 1850000,
+            "saleOff": 5
+        },
+        {
+            "id": 6,
+            "title": "APPLE",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fs%2Fc%2Fscarlett.1.png&w=640&q=75",
+            "price": 2150000,
+            "saleOff": 10
+        },
+        {
+            "id": 7,
+            "title": "DENON",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fl%2Fo%2Floretta.1.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 10
+        },
+        {
+            "id": 8,
+            "title": "CANON",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fc%2Fo%2Fcora.1.png&w=640&q=75",
+            "price": 3100000,
+            "saleOff": 20
+        },
+        {
+            "id": 9,
+            "title": "JBL",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fa%2Fu%2Fautumn_1.png&w=640&q=75",
+            "price": 1100000,
+            "saleOff": 10
+        },
+        {
+            "id": 10,
+            "title": "SAMSUNG",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fb%2Fx%2Fbx.grand.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 5
+        },
+        {
+            "id": 11,
+            "title": "APPLE",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fv%2Fd%2Fvd.potent.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 15
+        },
+        {
+            "id": 12,
+            "title": "DYNEX",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fb%2Ft%2Fbt.gallant.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 10
+        },
+        {
+            "id": 13,
+            "title": "TOSHIBA",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fg%2F_%2Fg.rise.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 20
+        },
+        {
+            "id": 14,
+            "title": "MICROSOFT",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fw%2Fe%2Fwerner.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 15
+        },
+        {
+            "id": 15,
+            "title": "DELL",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fb%2Fx%2Fbx.swank.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 25
+        },
+        {
+            "id": 16,
+            "title": "NESPRESSO",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fv%2Fd%2Fvd.sharp.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 20
+        },
+        {
+            "id": 17,
+            "title": "CROCK-POT",
+            "brand": "DETROIT",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2Fu%2Fs%2Fus12-01_1.png&w=640&q=75",
+            "price": 1000000,
+            "saleOff": 10
+        },
+        {
+            "id": 18,
+            "brand": "DETROIT",      
+            "title": "HP - Spectre",
+            "image": "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Fd96eb53c23516f6ca600411b8495131f%2F8%2Fm%2F8mile-01_1_1.png&w=640&q=75",
+            "price": 1350000,
+            "saleOff": 5
+        }
+    ]
+}

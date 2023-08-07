@@ -1,0 +1,149 @@
+.row {
+    justify-content: center;
+}
+
+.hit {
+    margin: 20px;
+    width: 270px;
+    height: 369px;
+    -webkit-transition: box-shadow 0.8s;
+}
+
+.men-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.showall {
+    /*color: #161a21;*/
+    /*text-decoration: none;*/
+    /*font-weight: 600;*/
+    /*font-size: large;*/
+}
+
+.showall:hover {
+    color: blue
+}
+
+.card {
+    border: none;
+    background-color: unset;
+}
+
+.hit:hover {
+    box-shadow: 0 6px 20px 6px rgba(0, 0, 0, 0.1), 0 6px 20px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f8f7f4;
+    transition: 0.8s;
+    opacity: 1;
+}
+
+.hit:hover .btn-addStore {
+    display: block;
+    box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.1), 0 3px 5px 3px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.hit:hover .row {
+    text-align: center;
+}
+
+.btn-addStore {
+    width: 100%;
+    display: none;
+    height: 40px;
+    margin-top: -20px;
+    border: none;
+    font-weight: bold;
+    background-color: #E2E2E2;
+}
+
+.btn-addStore:hover {
+    background-color: #161a21;
+    color: white;
+}
+
+.product-img {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    color: var(--primary-color)
+}
+
+.hit .saleOff {
+    /*background: #ff5e57;*/
+    /*color: #fff;*/
+    /*padding: 8px;*/
+    /*margin-left: -120px;*/
+    /*margin-top: 10px;*/
+    /*font-weight: 700;*/
+    /*font-size: 14px;*/
+    /*line-height: 14px;*/
+    /*position: absolute;*/
+    /*border-radius: 100px;*/
+    
+}
+
+.cardPrice {
+    color: #161a21;
+    letter-spacing: -.02em;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.cardOldPrice {
+    letter-spacing: .02em;
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    color: #161a21;
+    font-size: 14px;
+    line-height: 12px;
+    opacity: .6;
+    margin: 0 0 0 8px;
+    font-weight: 600;
+}
+
+.cardTitle {
+    font-style: normal;
+    font-weight: 1000;
+    padding: 0;
+    margin: 6px 0 6px 0;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: .02em;
+    color: #000;
+    text-transform: uppercase
+}
+
+.cardBrand {
+    color: rgba(0, 0, 0, .6);
+    text-align: center;
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: uppercase;
+    margin: 12px 0 0;
+}
+
+@media screen and (max-width: 850px) {
+    .btn-addStore {
+        display: block;
+        background-color: #000;
+        color: #fff;
+        
+    }
+
+    .btn-addStore:hover {
+        background-color: black;
+        color: white;
+    }
+    .hit{
+        box-shadow: 0 6px 20px 6px rgba(0, 0, 0, 0.1), 0 6px 20px 6px rgba(0, 0, 0, 0.1);
+        background-color: #f8f7f4;
+    }
+}

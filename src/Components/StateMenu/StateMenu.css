@@ -1,0 +1,60 @@
+.wrapperStateMenu{
+    display: flex;
+}
+.genStateMenu{
+    text-align: center;
+    cursor: pointer;
+    flex: 1 1;
+    position: relative;
+    height: 100%;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .02em;
+}
+.activeStateHover{
+    color: white;
+    background-color: black;
+}
+
+.StateMenuHover{
+    cursor: pointer;
+    display: flex;
+    padding: 24px 0;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -.02em;
+    color: #161a21;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+.StateMenuHover:hover{
+    background-color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+.womanStateMenuHover{
+    display: none;
+}
+
+.showStateMenuMen{
+    display: block;
+}
+.hideStateMenuMen{
+    display: none;
+}
+.showStateMenuWoman{
+    display: block;
+}
+.hideStateMenuWoman{
+    display: none;
+}

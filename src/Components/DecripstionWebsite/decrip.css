@@ -1,0 +1,44 @@
+.wrapperDecripstion{
+    padding: 50px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+}
+.logoDecripstion{
+    width: 37px;
+    display: block;
+    position: relative;
+    margin: 0 auto 20px;
+}
+.h3TitleDecripstion{
+    padding: 0 0 32px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: .02em;
+    font-weight: 400;
+}
+.pTextDecroption{
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 0 90px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: .02em;
+    color: rgba(22,26,33,.6);
+}
+.bigImgDectipstion{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 800px){
+     .pTextDecroption{
+        width: unset;
+     }
+}

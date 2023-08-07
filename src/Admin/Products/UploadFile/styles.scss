@@ -1,0 +1,17 @@
+.list-group-flush-image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  img {
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+  .list-group-item {
+    cursor: pointer;
+    border: none;
+    .delete-image {
+      position: absolute;
+    }
+
+  }
+}

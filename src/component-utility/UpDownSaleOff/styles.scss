@@ -1,0 +1,21 @@
+.saleOff {
+  color: #fff;
+  padding: 8px;
+  margin-left: -120px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  position: absolute;
+  border-radius: 100px;
+
+}
+.saleOff.down {
+  background: #ff5e57;
+  z-index: 999;
+}
+
+.saleOff.up {
+  background: #53c66e;
+  z-index: 999;
+}

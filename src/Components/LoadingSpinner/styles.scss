@@ -1,0 +1,106 @@
+.spinner {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  width:var(--size);
+  height:var(--size);
+  position:relative;
+
+}
+
+.spinner-area {
+  border: 15px solid transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: rotate var(--duration) var(--timing) infinite;
+  mix-blend-mode: overlay;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-third {
+  border-top-color:var(--clrThirdSpin);
+  --duration: 1.5s;
+  --timing: ease-in;
+}
+
+.spinner-second {
+  border-left-color:var(--clrSecondSpin);
+  --duration: 2s;
+  --timing: ease-in
+}
+
+.spinner-first {
+  border-bottom-color: var(--clrFirstSpin);
+  --duration: 3s;
+  --timing: ease-in-out
+}
+
+.spinner p {
+  font-size: var(--spinnerFont);
+  text-transform:none;
+  animation: displaying-text var(--displayingTextTime) ease-in-out infinite;
+  color: #fff;
+}
+
+@keyframes displaying-text {
+  0% {
+    opacity:1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+.spinner:after {
+  content:'Nothing will be loaded!';
+  width:100px;
+  padding:15px;
+  height:50px;
+  display:block;
+  position:absolute;
+  top:-85px;
+  right:-40px;
+  background:white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 42% 75%, 22% 100%, 22% 75%, 0% 75%);
+  /* 	animation: displayMessage 2s linear 3s; */
+  animation-name:displayMessage;
+  animation-duration:3s;
+  animation-timing-function:ease-in-out;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state:pause;
+  opacity:0;
+}
+
+@keyframes displayMessage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity:0.85;
+    transform:rotate(15deg);
+  }
+}
+
+
+
+
+
+

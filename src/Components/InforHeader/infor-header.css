@@ -1,0 +1,48 @@
+.overInfortext{
+    overflow-x:auto;
+    padding: 10px;
+    background-color:#ecebea;
+    margin-bottom: 20px;
+}
+.allIn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.index1{
+    width: 100%;
+    gap: 20px;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: .02em;
+    color: #161a21;
+}
+
+.icons{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: var(--color-gray-2);
+}
+
+
+@media screen and (min-width: 1250px){
+    .overInfortext{
+        overflow-x: hidden;
+    }
+}   
+@media screen and (max-width: 400px) {
+    .info{
+        font-size: 15px;
+    }
+    .icons{
+        font-size: 20px;
+    }
+
+}
